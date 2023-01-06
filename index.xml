@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>维格纳的朋友的个人博客</title>
+    <link>https://example.org/</link>
+    <description>Recent content on 维格纳的朋友的个人博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <copyright>©2001-2023 苏州大学版权所有 [苏ICP备1205](https://beian.miit.gov.cn/)</copyright>
+    <lastBuildDate>Thu, 05 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>个人信息</title>
+      <link>https://example.org/2023/01/%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF/</link>
+      <pubDate>Thu, 05 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/2023/01/%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://img1.imgtp.com/2023/01/06/vspy0Oww.jpg&#34; alt=&#34;suda&#34;&gt;&lt;/p&gt;
+&lt;h5 id=&#34;姓名&#34;&gt;姓名&lt;/h5&gt;
+&lt;pre&gt;&lt;code&gt; 翁祎晗
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    
+    <item>
+      <title>视频推荐</title>
+      <link>https://example.org/2023/01/%E8%A7%86%E9%A2%91%E6%8E%A8%E8%8D%90/</link>
+      <pubDate>Wed, 04 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/2023/01/%E8%A7%86%E9%A2%91%E6%8E%A8%E8%8D%90/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://img1.imgtp.com/2023/01/06/mGKxC1bn.png&#34; alt=&#34;青花瓷mv&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;视频介绍&#34;&gt;视频介绍&lt;/h4&gt;
+&lt;p&gt;《青花瓷》MV导演是珍妮花和许佳真，这MV设计了这样的故事情节，以青花瓷为主线，作为穿越时空的代表，连接起古代和现在的男女主人公。匿藏其中的仍是爱情，不过此时的爱情着重于悲剧性情节的渲染。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>歌曲推荐</title>
+      <link>https://example.org/2023/01/%E6%AD%8C%E6%9B%B2%E6%8E%A8%E8%8D%90/</link>
+      <pubDate>Tue, 03 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/2023/01/%E6%AD%8C%E6%9B%B2%E6%8E%A8%E8%8D%90/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://img1.imgtp.com/2023/01/06/yiT9wG0l.jpg&#34; alt=&#34;青花瓷&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;歌曲介绍&#34;&gt;歌曲介绍&lt;/h4&gt;
+&lt;p&gt;《青花瓷》是周杰伦演唱的一首歌曲，由方文山作词，周杰伦作曲，钟兴民编曲，收录于周杰伦2007年11月2日发行的专辑《我很忙》中。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>建立网页的过程与心得</title>
+      <link>https://example.org/2023/01/%E5%BB%BA%E7%AB%8B%E7%BD%91%E9%A1%B5%E7%9A%84%E8%BF%87%E7%A8%8B%E4%B8%8E%E5%BF%83%E5%BE%97/</link>
+      <pubDate>Mon, 02 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/2023/01/%E5%BB%BA%E7%AB%8B%E7%BD%91%E9%A1%B5%E7%9A%84%E8%BF%87%E7%A8%8B%E4%B8%8E%E5%BF%83%E5%BE%97/</guid>
+      <description>&lt;h2 id=&#34;step-1-准备工作&#34;&gt;Step 1. 准备工作&lt;/h2&gt;
+&lt;p&gt;（1）下载&lt;a href=&#34;https://www.gohugo.org/&#34;&gt;hugo&lt;/a&gt; 将其解压缩到到C:\hugo\bin，并配置相关环境变量&lt;/p&gt;
+&lt;p&gt;（2）安装&lt;a href=&#34;https://code.visualstudio.com/&#34;&gt;Visual Studio Code&lt;/a&gt;并安装相关插件&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>个人信息</title>
+      <link>https://example.org/%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

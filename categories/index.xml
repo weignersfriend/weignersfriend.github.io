@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on 维格纳的朋友的个人博客</title>
+    <link>https://example.org/categories/</link>
+    <description>Recent content in Categories on 维格纳的朋友的个人博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <copyright>©2001-2023 苏州大学版权所有 [苏ICP备1205](https://beian.miit.gov.cn/)</copyright><atom:link href="https://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

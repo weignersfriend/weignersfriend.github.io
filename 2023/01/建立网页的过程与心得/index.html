@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+<meta property="og:title" content="建立网页的过程与心得" />
+<meta property="og:description" content="使用hugo搭建静态网页" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://example.org/2023/01/%E5%BB%BA%E7%AB%8B%E7%BD%91%E9%A1%B5%E7%9A%84%E8%BF%87%E7%A8%8B%E4%B8%8E%E5%BF%83%E5%BE%97/" />
+<meta property="article:published_time" content="2023-01-02T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-01-02T00:00:00+00:00" />
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="建立网页的过程与心得"/>
+<meta name="twitter:description" content="使用hugo搭建静态网页"/>
+<meta name="generator" content="Hugo 0.107.0">
+
+
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "建立网页的过程与心得",
+  "url": "https://example.org/2023/01/%E5%BB%BA%E7%AB%8B%E7%BD%91%E9%A1%B5%E7%9A%84%E8%BF%87%E7%A8%8B%E4%B8%8E%E5%BF%83%E5%BE%97/",
+  "wordCount": "59",
+  "datePublished": "2023-01-02T00:00:00+00:00",
+  "dateModified": "2023-01-02T00:00:00+00:00",
+  "author": {
+    "@type": "Person",
+    "name": "wigner"
+  },
+  "keywords": "Hugo, 静态网页, 准备工作, 初步搭建, 完善内容, 发布",
+  "description": "使用hugo搭建静态网页"
+}
+</script>
+
+
+
+    <link rel="canonical" href="https://example.org/2023/01/%E5%BB%BA%E7%AB%8B%E7%BD%91%E9%A1%B5%E7%9A%84%E8%BF%87%E7%A8%8B%E4%B8%8E%E5%BF%83%E5%BE%97/">
+
+    <title>建立网页的过程与心得 | 维格纳的朋友的个人博客</title>
+
+    
+    <!-- combined, minified CSS -->
+    
+    <link href="https://example.org/css/style.c6ba80bc50669557645abe05f86b73cc5af84408ed20f1551a267bc19ece8228.css" rel="stylesheet" integrity="sha256-xrqAvFBmlVdkWr4F&#43;GtzzFr4RAjtIPFVGiZ7wZ7Ogig=" crossorigin="anonymous">
+    
+
+    <!-- minified Font Awesome for SVG icons -->
+    
+    <script defer src="https://example.org/js/fontawesome.min.f5072c55a0721857184db93a50561d7dc13975b4de2e19db7f81eb5f3fa57270.js" integrity="sha256-9QcsVaByGFcYTbk6UFYdfcE5dbTeLhnbf4HrXz&#43;lcnA=" crossorigin="anonymous"></script>
+
+    <!-- RSS 2.0 feed -->
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="https://example.org/">Home</a>
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title" dir="auto"><a href="https://example.org/" rel="home">维格纳的朋友的个人博客</a></h1>
+        <p class="lead blog-description" dir="auto">Go home and rethink your life.</p>
+      </div>
+    </header>
+    
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title" dir="auto"><a href="https://example.org/2023/01/%E5%BB%BA%E7%AB%8B%E7%BD%91%E9%A1%B5%E7%9A%84%E8%BF%87%E7%A8%8B%E4%B8%8E%E5%BF%83%E5%BE%97/">建立网页的过程与心得</a></h2>
+    <p class="blog-post-meta">
+<time datetime="2023-01-02T00:00:00Z">2023年-01月-02日</time>
+ in 
+
+<span class="fas fa-tag" aria-hidden="true"></span>&nbsp;<a href="/tags/%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C/" rel="tag">准备工作</a>, <a href="/tags/%E5%88%9D%E6%AD%A5%E6%90%AD%E5%BB%BA/" rel="tag">初步搭建</a>, <a href="/tags/%E5%AE%8C%E5%96%84%E5%86%85%E5%AE%B9/" rel="tag">完善内容</a>, <a href="/tags/%E5%8F%91%E5%B8%83/" rel="tag">发布</a>
+
+</p>
+  </header>
+  <h2 id="step-1-准备工作">Step 1. 准备工作</h2>
+<p>（1）下载<a href="https://www.gohugo.org/">hugo</a> 将其解压缩到到C:\hugo\bin，并配置相关环境变量</p>
+<p>（2）安装<a href="https://code.visualstudio.com/">Visual Studio Code</a>并安装相关插件</p>
+<p>※hugo建议下载扩展版，否则某些主题或许无法使用；</p>
+<p>vs code的插件安装后需要重启</p>
+<h2 id="step-2-初步搭建">Step 2. 初步搭建</h2>
+<p>配置完环境变量，重启cmd，测试hugo运行情况
+输入hugo new site blog，搭建网站
+将下载好的主题zip文件解压至C:\hugo\blog\themes，
+※名字可改短便于确定路径。
+将C:\hugo\blog\themes\ananke\exampleSite中的所有文件复制，粘贴在blog根目录。</p>
+<p>编辑名为config.toml文件
+打开cmd，通过命令hugo server运行网站。</p>
+<h2 id="step-3-完善内容">Step 3. 完善内容</h2>
+<p>1.config.toml文件中，更改副标题、侧栏、日期格式等。
+2.给页面添加引入bilibili的视频内容：
+需要自定义shortcodes，定位到 layouts/shortcodes目录，新建一个文件叫 bilibili.html，放入如下代码：</p>
+<p><img src="https://img1.imgtp.com/2023/01/06/vCLLM36L.png" alt="代码图片">
+带入bv号即可。</p>
+<p>※我的这个模板似乎不能在content目录下新建内容。。。。不知道什么回事</p>
+<h2 id="step-4-发布">Step 4. 发布</h2>
+<p>打开GitHub并注册；</p>
+<p>点击Repository（仓库），新建仓库
+※作为个人用户，用户名要与注册GitHub时的用户名一致</p>
+<p>在code界面点击 uploading an existing file上传网页的本地public文件</p>
+<p>保存修改后，在设置界面可以选择公开或不公开个人网站。</p>
+<p>还可以利用GitHubAction进行网站的自动发布。</p>
+<p>※使用翻墙软件或许可以更稳定快速的使用GitHub</p>
+<p>如何删除仓库：</p>
+<p>1.进入自己的项目地址选择Setting按钮；</p>
+<p>2.进入项目设置界面，直接划到最底部；</p>
+<p>3.选择Delete this repository，在弹出的对话框中输入自己的项目名称确定删除。</p>
+<h2 id="心得体会">心得体会：</h2>
+<p>本学期课程使用到了很多实用且开源的多媒体技术软件，老师也分享了很多有用的资源，相当多的软件都可以作为我们一些常用付费软件的平替。</p>
+<p>最后使用Hugo搭建个人网站是学期任务的重点和难点。诚然，借助hugo提供的主题可以很快形成一个网站的雏形，但更重要的是后续的优化。期间还涉及到了markdown等语法的使用。
+在按照老师所教和教学视频走完整个流程的时候，一些心得和收获在上文已经有所体现。因此，在这里我主要想说说遇到的问题和困难：首先就是对语法和文件内容的不理解，在编写时不能将最终结果和文件的内容对应，不了解语法也导致即使对应到了也无法达到自己想要的效果；其次，在构建网站的过程中，很容易出现差错却很难搞清楚问题出在哪里，只能按部就班按照流程重新展开，浪费了大量的精力；最后，就是期末时间有限，整个网站的效果也不尽如人意，很难创新。也期待着以后自己能更深入的学习，较好的掌握新媒体技术方面的软件知识。</p>
+
+  
+
+  
+  <hr>
+  <footer>
+
+  
+    <section>
+    <h4>Share</h4>
+    <nav class="nav sharing-icons">
+      <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fexample.org%2f2023%2f01%2f%25E5%25BB%25BA%25E7%25AB%258B%25E7%25BD%2591%25E9%25A1%25B5%25E7%259A%2584%25E8%25BF%2587%25E7%25A8%258B%25E4%25B8%258E%25E5%25BF%2583%25E5%25BE%2597%2f" title="Share on Facebook"><span class="fab fa-facebook-f fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fexample.org%2f2023%2f01%2f%25E5%25BB%25BA%25E7%25AB%258B%25E7%25BD%2591%25E9%25A1%25B5%25E7%259A%2584%25E8%25BF%2587%25E7%25A8%258B%25E4%25B8%258E%25E5%25BF%2583%25E5%25BE%2597%2f" title="Share on LinkedIn"><span class="fab fa-linkedin-in fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://twitter.com/intent/tweet?url=https%3a%2f%2fexample.org%2f2023%2f01%2f%25E5%25BB%25BA%25E7%25AB%258B%25E7%25BD%2591%25E9%25A1%25B5%25E7%259A%2584%25E8%25BF%2587%25E7%25A8%258B%25E4%25B8%258E%25E5%25BF%2583%25E5%25BE%2597%2f&amp;text=%e5%bb%ba%e7%ab%8b%e7%bd%91%e9%a1%b5%e7%9a%84%e8%bf%87%e7%a8%8b%e4%b8%8e%e5%bf%83%e5%be%97" title="Tweet this"><span class="fab fa-twitter fa-2x"></span></a>
+    </nav>
+  </section>
+
+  
+
+  
+  </footer>
+  
+
+</article> 
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+  <section class="sidebar-module sidebar-module-inset">
+    <h4>About</h4>
+    <p dir="auto">包括一些图片、音频、视频和个人心得</p>
+  </section>
+  
+
+  
+        <section class="sidebar-module">
+    <h4>Recent Posts</h4>
+    <ol class="list-unstyled">
+
+
+<li><a href="/2023/01/%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF/">个人信息</a></li>
+
+<li><a href="/2023/01/%E8%A7%86%E9%A2%91%E6%8E%A8%E8%8D%90/">视频推荐</a></li>
+
+<li><a href="/2023/01/%E6%AD%8C%E6%9B%B2%E6%8E%A8%E8%8D%90/">歌曲推荐</a></li>
+
+<li><a href="/2023/01/%E5%BB%BA%E7%AB%8B%E7%BD%91%E9%A1%B5%E7%9A%84%E8%BF%87%E7%A8%8B%E4%B8%8E%E5%BF%83%E5%BE%97/">建立网页的过程与心得</a></li>
+
+    </ol>
+  </section>
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://www.gohugo.org/theme/">主题来源</a></li>
+      
+      <li><a href="https://pan.baidu.com/s/1aRbEKTpFZOvuxUS46gMNLA%20">课程资料</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p dir="auto">
+      
+      ©2001-2023 苏州大学版权所有 <a href="https://beian.miit.gov.cn/">苏ICP备1205</a>
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>
